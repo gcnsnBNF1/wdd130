@@ -1,0 +1,26 @@
+nav {
+    background-color: midnightblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: midnightblue;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid midnightblue;
+    padding: 2px;
+    box-shadow: 0 0 30px slategray;
+}
+
+p {
+    padding: 10px;
+}
