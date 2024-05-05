@@ -13,6 +13,6 @@ body {
     --accent1-color: #000080;
     --accent2-color: #7ad8ff;
 
-    --heading-font: 'Briem Hand', sans-serif;
-    --paragraph-font: 'Open Sans', sans-serif;
+    --heading-font: Briem Hand, sans-serif;
+    --paragraph-font: Open Sans, sans-serif;
 }
