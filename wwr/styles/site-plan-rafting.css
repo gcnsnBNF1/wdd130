@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
+    --heading-font: 'Briem Hand', sans-serif;
+    --paragraph-font: 'Open Sans', sans-serif;
+
     --primary-color: #ffa07a;
     --secondary-color: #333333;
     --accent1-color: #000080;
     --accent2-color: #7ad8ff;
-
-    --heading-font: 'Briem Hand', sans-serif;
-    --paragraph-font: 'Open Sans', sans-serif;
 }
 
 body {
