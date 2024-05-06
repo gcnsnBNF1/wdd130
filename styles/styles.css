@@ -59,6 +59,12 @@ aside {
     text-align: center;
 }
 
+aside p {
+    color:#2f2f2f;
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+}
+
 aside img {
     width: 200px;
     height: auto;
