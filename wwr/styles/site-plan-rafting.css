@@ -5,10 +5,10 @@
     --heading-font: 'Briem Hand', sans-serif;
     --paragraph-font: 'Open Sans', sans-serif;
 
-    --primary-color: #ffa07a;
-    --secondary-color: #333333;
-    --accent1-color: #000080;
-    --accent2-color: #7ad8ff;
+    --primary-color: #032a4e;
+    --secondary-color: #75bafa;
+    --accent1-color: #1bdaaa;
+    --accent2-color: #094939;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,4 +20,9 @@ body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
 }
