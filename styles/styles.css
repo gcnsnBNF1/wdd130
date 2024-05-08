@@ -12,6 +12,8 @@ nav a {
     padding: 20px;
 }
 
+/* Text font modifier */
+
 :root {
     --home-heading: 'Open Sans', sans-serif;
     --home-heading-2: 'EB Garamond', serif;
