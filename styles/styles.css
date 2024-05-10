@@ -70,6 +70,7 @@ aside h2 {
 aside img {
     width: 200px;
     height: auto;
+    position: relative;
 }
 
 footer {
