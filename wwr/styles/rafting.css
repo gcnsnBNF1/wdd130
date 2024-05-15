@@ -53,23 +53,18 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-    text-align: center;
+.hero {
     position: relative;
 }
 
-.hero h1 {
+h1, article {
     position: absolute;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    padding: 10px;
 }
 
-.hero article {
-    position: absolute;
-}
-
-.hero article img {
+article img {
     width: 30%;
     float: right;
 }
