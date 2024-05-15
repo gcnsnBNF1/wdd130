@@ -27,11 +27,6 @@ body {
     padding: 20px;
 }
 
-header {
-    padding: 20px;
-    background-color: var(--accent1-color);
-}
-
 p {
     padding: 25px;
 }
@@ -56,4 +51,28 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
+
+.hero {
+    position: relative;
+    background-color: var(--accent1-color);
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+}
+
+.hero article {
+    position: absolute;
+}
+
+.hero article img {
+    width: 30%;
+    float: right;
 }
