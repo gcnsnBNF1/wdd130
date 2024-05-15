@@ -55,15 +55,16 @@ nav a:hover {
 
 .hero {
     position: relative;
-    background-color: var(--accent1-color);
 }
 
 .hero h1 {
     position: absolute;
+    background-color: var(--accent1-color);
 }
 
 .hero article {
     position: absolute;
+    background-color: var(--accent1-color);
 }
 
 .hero article img {
