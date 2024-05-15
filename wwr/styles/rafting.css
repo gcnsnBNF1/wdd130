@@ -18,12 +18,22 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
 }
 
 nav {
@@ -46,14 +56,6 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
-}
-
-.villain {
-    position: absolute;
-    margin: 1rem;
-    padding: 1rem;
-    background-color: var(--accent1-color);
-    color: var(--primary-color);
 }
 
 .hero img {
