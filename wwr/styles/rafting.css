@@ -20,7 +20,7 @@
     color: aliceblue;
 }
 
-.story article img {
+article img {
     float: right;
-    size: 50%;
+    size: 30%;
 }
