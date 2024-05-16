@@ -17,3 +17,8 @@
     background: transparent(green);
     color: aliceblue;
 }
+
+.story article img {
+    float: right;
+    size: 40%;
+}
