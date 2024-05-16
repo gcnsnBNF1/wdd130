@@ -15,7 +15,6 @@
 .story h1, article {
     position: absolute;
     top: 50px;
-    right: 100px;
     background-color: green;
     color: aliceblue;
 }
