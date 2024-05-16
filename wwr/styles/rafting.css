@@ -24,12 +24,34 @@
 body {
     max-width: 1000px;
     margin: 1rem auto;
+    font-family: var(--paragraph-font);
 }
 
 p {
-    font-family: var(--paragraph-font);
     font-size: medium;
     padding: 25px;
+}
+
+.pagelinks nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+.pagelinks a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.pagelinks a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+.pagelinks a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
 
 .hero {
@@ -67,4 +89,9 @@ p {
     height: 25%;
     padding: 0.125rem;
     float: right;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
