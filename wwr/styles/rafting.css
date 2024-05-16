@@ -98,13 +98,17 @@ h2, h3, h4, h5, h6 {
 }
 
 .sociallinks {
-    background-color: none;
-    color: none;
+    background-color: white;
+    color: white;
     text-decoration: none;
+}
+
+.sociallinks a:hover {
+    background-color: white;
+    color: white;
 }
 
 .sociallinks img {
     width: 10%;
-    height: 10%;
-    padding: 0.5rem;
+    height: auto;
 }
