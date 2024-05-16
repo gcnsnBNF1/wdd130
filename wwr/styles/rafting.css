@@ -20,15 +20,15 @@
 .story h1 {
     position: absolute;
     top: 50px;
-    right: 50px;
+    right: 10px;
     background-color: green;
     color: aliceblue;
 }
 
 .story article {
     position: absolute;
-    top: 70px;
-    right: 50px;
+    top: 75px;
+    right: 10px;
     background-color: green;
     color: aliceblue;
 }
