@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+:root {
+    --heading-font: 'Briem Hand', sans-serif;
+    --paragraph-font: 'Open Sans', sans-serif;
+
+    --primary-color: #032a4e;
+    --secondary-color: #a4c9f9;
+    --accent1-color: #1bdaaa;
+    --accent2-color: #094939;
+
+    --nav-background-color: #3a4b2c;
+    --nav-link-color: #87a96b;
+    --nav-hover-link-color: #e2eadb;
+    --nav-hover-background-color: #b0c69d;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -9,6 +24,10 @@
 body {
     max-width: 1000px;
     margin: 1rem auto;
+}
+
+p {
+    font-family: var(--paragraph-font);
 }
 
 .hero {
@@ -26,9 +45,10 @@ body {
     position: absolute;
     top: 50px;
     padding: 2rem;
+    font-family: var(--heading-font);
     text-align: center;
-    background-color: black;
-    color: azure;
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
 }
 
 .story article {
@@ -36,8 +56,8 @@ body {
     top: 220px;
     border: 1px;
     padding: 0.25rem;
-    background-color: green;
-    color: aliceblue;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
 }
 
 .story img {
