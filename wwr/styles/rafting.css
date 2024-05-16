@@ -17,18 +17,11 @@
     height: auto;
 }
 
-.story h1 {
+.story {
     position: absolute;
     top: 50px;
     right: 10px;
-    background-color: green;
-    color: aliceblue;
-}
-
-.story article {
-    position: absolute;
-    top: 75px;
-    right: 10px;
+    padding: 1rem;
     background-color: green;
     color: aliceblue;
 }
