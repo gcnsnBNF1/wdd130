@@ -6,19 +6,21 @@
 }
 
 .hero img {
-    object-fit: scale-down;
+    object-fit: cover;
     display: block;
-    width: 60%;
+    width: 100%;
     height: auto;
 }
 
 .story h1, article {
     position: absolute;
-    background: transparent(green);
+    top: 50px;
+    right: 100px;
+    background-color: transparent(green);
     color: aliceblue;
 }
 
 .story article img {
     float: right;
-    size: 40%;
+    size: 50%;
 }
