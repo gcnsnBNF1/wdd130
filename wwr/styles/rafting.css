@@ -28,5 +28,7 @@
 }
 
 .story img {
+    width: 200px;
+    height: auto;
     float: right;
 }
