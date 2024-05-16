@@ -18,6 +18,8 @@
 }
 
 .story {
+    margin: 1rem;
+    padding: 1rem;
     background-color: green;
     color: aliceblue;
 }
@@ -25,9 +27,11 @@
 .story h1 {
     position: absolute;
     top: 50px;
+    right: 50px;
 }
 
 .story article {
     position: absolute;
     top: 80px;
+    right: 50px;
 }
