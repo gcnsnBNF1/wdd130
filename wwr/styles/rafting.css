@@ -6,6 +6,10 @@
 	padding: 0;
 }
 
+main {
+    max-width: 800px;
+}
+
 .hero {
     position: relative;
     margin: 1rem;
