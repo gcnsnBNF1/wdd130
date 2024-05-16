@@ -22,10 +22,17 @@ body {
     height: auto;
 }
 
+.story h1 {
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    background-color: black;
+    color: azure;
+}
+
 .story {
     position: absolute;
-    top: 200px;
-    margin: 10px auto;
+    top: 100px;
     border: 1px;
     padding: 0.25rem;
     background-color: green;
