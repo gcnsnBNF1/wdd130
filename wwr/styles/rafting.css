@@ -21,6 +21,7 @@
 .story {
     position: absolute;
     top: 200px;
+    margin: 1rem auto;
     border: 1px;
     padding: 1rem;
     background-color: green;
