@@ -28,7 +28,7 @@ body {
 
 p {
     font-family: var(--paragraph-font);
-    font-size: small;
+    font-size: medium;
     padding: 25px;
 }
 
