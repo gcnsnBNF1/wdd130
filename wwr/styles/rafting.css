@@ -8,8 +8,9 @@
 .hero img {
     object-fit: cover;
     display: block;
-    width: 75%;
+    width: 50%;
     height: auto;
+    text-align: center;
 }
 
 .story h1 {
@@ -21,7 +22,7 @@
 
 .story article {
     position: absolute;
-    top: 40px;
+    top: 60px;
     background-color: green;
     color: aliceblue;
 }
