@@ -28,6 +28,8 @@ body {
 
 p {
     font-family: var(--paragraph-font);
+    font-size: small;
+    padding: 25px;
 }
 
 .hero {
