@@ -96,7 +96,7 @@ nav a:hover {
     border: 1px;
     padding: 0.25rem;
     font-size: smaller;
-    background-color: var(--accent1-color);
+    background-color: var(--accent4-color);
     color: white;
 }
 
