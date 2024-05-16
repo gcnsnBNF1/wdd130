@@ -80,6 +80,7 @@ p {
     top: 220px;
     border: 1px;
     padding: 0.25rem;
+    font-size: small;
     background-color: var(--accent1-color);
     color: var(--primary-color);
 }
