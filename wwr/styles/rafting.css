@@ -20,13 +20,14 @@
 
 .story {
     position: absolute;
-    padding: 0.25rem;
+    top: 100px;
+    padding: 2rem;
     background-color: green;
     color: aliceblue;
 }
 
 .story img {
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 25%;
     float: right;
 }
