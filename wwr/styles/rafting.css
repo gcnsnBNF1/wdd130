@@ -38,15 +38,58 @@ footer {
 
 }
 
+header {
+	margin: 1rem auto;
+	display: grid;
+    background-color: var(--nav-background-color);
+	grid-template-columns: 125px, 125px, 125px, 125px;
+	align-items: end;
+	max-width: 1000px;
+}
+
+.logo img {
+	margin: 10px auto;
+	width: 50px;
+	height: auto;
+}
+
+nav {
+	text-align: right;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: var(--nav-link-color);
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color: var(--nav-hover-background-color);
+	color: var(--nav-hover-link-color);
+	font-weight: 700;
+	text-decoration: none;
+}
+
 p {
     font-size: medium;
     padding: 25px;
 }
 
-nav {
+/* nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    align-content: end;
 }
 
 nav a {
@@ -63,7 +106,7 @@ nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
-}
+} */
 
 .hero {
     position: relative;

@@ -15,6 +15,17 @@
     align-items: center;
 }
 
+.primary {
+    width: 1000px;
+    height: 250px;
+    border: 2px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
 .red {
     width: 100px;
     height: 100px;
@@ -30,13 +41,99 @@
 }
 
 .orange {
+    width: 100px;
+    height: 100px;
     background-color: #ff6c00;
+    color: black;
 }
 
 .honey {
+    width: 100px;
+    height: 100px;
     background-color: #ffa100;
+    color: black;
 }
 
 .yellow {
+    width: 100px;
+    height: 100px;
     background-color: gold;
+    color: black;
+}
+
+.lime {
+    width: 100px;
+    height: 100px;
+    background-color: #bfc100;
+    color: black;
+}
+
+.chartreuse {
+    width: 100px;
+    height: 100px;
+    background-color: #80ab00;
+    color: black;
+}
+
+.harlequin {
+    width: 100px;
+    height: 100px;
+    background-color: #409600;
+    color: black;
+}
+
+.green {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    color: white;
+}
+
+.pine-green {
+    width: 100px;
+    height: 100px;
+    background-color: #006040;
+    color: white;
+}
+
+.teal {
+    width: 100px;
+    height: 100px;
+    background-color: #004080;
+    color: white;
+}
+
+.indigo {
+    width: 100px;
+    height: 100px;
+    background-color: #0020bf;
+    color: white;
+}
+
+.blue {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+}
+
+.violet {
+    width: 100px;
+    height: 100px;
+    background-color: #4000bf;
+    color: white;
+}
+
+.purple {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    color: white;
+}
+
+.rose {
+    width: 100px;
+    height: 100px;
+    background-color: #bf0040;
+    color: white;
 }
