@@ -83,29 +83,6 @@ p {
     padding: 25px;
 }
 
-/* nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
-    align-content: end;
-}
-
-nav a {
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
-}
-
-nav a:link,
-nav a:visited {
-    color: var(--nav-link-color);
-}
-
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-} */
-
 .hero {
     position: relative;
 }
@@ -143,7 +120,7 @@ nav a:hover {
 
 .hero article img {
     width: 200px;
-    padding: 0 0 0 30px;
+    padding: 10px 10px 10px 0;
     float: right;
 }
 
