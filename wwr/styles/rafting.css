@@ -39,18 +39,16 @@ footer {
 }
 
 header {
-	margin: 1rem auto;
+	margin: 10px auto;
 	display: grid;
     background-color: var(--nav-background-color);
-	grid-template-columns: 125px, 125px, 125px, 125px;
-	align-items: end;
+	grid-template-columns: 250px auto;
+	align-items: center;
 	max-width: 1000px;
 }
 
-.logo img {
-	margin: 10px auto;
-	width: 50px;
-	height: auto;
+header img {
+	max-width: 200px;
 }
 
 nav {
