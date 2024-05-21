@@ -129,14 +129,49 @@ h3,
 h4,
 h5,
 h6 {
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
+.history-grid {
+    width: 1000px;
+    height: 250px;
+    border: 5px solid var(--primary-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--accent1-color);
+    justify-items: center;
+    align-items: center;
+}
+
+.text-box {
+    padding: 1.5rem;
+    width: 350px;
+    height: 250px;
+    color: black;
+}
+
+.img-box {
+    padding: 1.5rem;
+    width: 200px;
+    height: auto;
+}
+
+.img-grid {
+    width: 1000px;
+    height: 500px;
+    display: grid;
+    background-color: lightgrey;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
 section img {
-    width: 600px;
+    width: 150px;
+    height: auto;
 }
 
 .sociallinks {
