@@ -161,12 +161,21 @@ h6 {
 
 .img-grid {
     width: 1000px;
-    height: 500px;
+    height: 280px;
     display: grid;
     background-color: lightgrey;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 200px);
     justify-items: center;
     align-items: center;
+}
+
+figure {
+    align-self: center;
+}
+
+figcaption {
+    text-align: center;
+    font-size: small;
 }
 
 section img {
@@ -174,16 +183,29 @@ section img {
     height: auto;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--nav-hover-link-color);
+    margin-top: 100px;
+}
+
+footer p {
+    color: whitesmoke;
+}
+
 .sociallinks {
     display: inline-block;
-    background-color: white;
-    color: white;
+    background-color: unset;
+    color: unset;
     text-decoration: none;
 }
 
 .sociallinks a:hover {
-    background-color: white;
-    color: white;
+    background-color: unset;
+    color: unset;
 }
 
 .sociallinks img {
