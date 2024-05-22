@@ -67,7 +67,7 @@ nav {
 .navigation a {
 	display: block;
 	color: var(--nav-link-color);
-	padding: 20px;
+	padding: 50px;
 	text-decoration: none;
 }
 
