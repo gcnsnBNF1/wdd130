@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>WDD 130 | HTML and CSS Quiz Form</title>
+        <link rel="stylesheet" href="styles/quiz.css">
     </head>
     <body>
         <header>
@@ -11,28 +12,37 @@
         </header>
         <main>
             <form>
-                <legend><strong>1.</strong></legend>
-                <label for="q1">What does HTML stand for?</label>
-                <input type="text" id="q1" name="q1">
+                <fieldset>
+                    <div class="container">
+                        <legend><strong>1.</strong></legend>
+                        <label for="q1">What does HTML stand for?</label>
+                    </div>
+                    <input type="text" id="q1" name="q1">
 
-                <legend><strong>2.</strong></legend>
-                <label for="q2">What is the purpose of the meta element in HTML?</label>
-                <textarea id="q2" name="q2" rows="5"></textarea>
+                    <div class="container">
+                        <legend><strong>2.</strong></legend>
+                        <label for="q2">What is the purpose of the meta element in HTML?</label>
+                    </div>
+                    <textarea id="q2" name="q2" rows="5"></textarea>
 
-                <legend><strong>3.</strong></legend>
-                <label for="q3">Which of the following is a valid CSS comment?</label>
-                <select id="q3" name="q2">
-                    <option value="" selected disabled>Choose One...</option>
-                    <option value="invalid1">margin = 10px;</option>
-                    <option value="valid">margin: 10px auto;</option>
-                    <option value="invalid2">margin(auto): 10px</option>
-                </select>
+                    <div class="container">
+                        <legend><strong>3.</strong></legend>
+                        <label for="q3">Which of the following is a valid CSS comment?</label>
+                    </div>
+                    <select id="q3" name="q2">
+                        <option value="" selected disabled>Choose One...</option>
+                        <option value="invalid1">margin = 10px;</option>
+                        <option value="valid">margin: 10px auto;</option>
+                        <option value="invalid2">margin(auto): 10px</option>
+                    </select>
 
-                <legend><strong>4.</strong></legend>
-                <label for="q4">What is the bottom margin given this declaration?</label>
-                <p>margin: 10px 5px 15px;</p>
-                <input type="number" id="q4" name="q4">
-
+                    <div class="container">
+                        <legend><strong>4.</strong></legend>
+                        <label for="q4">What is the bottom margin given this declaration?</label>
+                    </div>
+                    <p class="code-demo">margin: 10px 5px 15px;</p>
+                    <input type="number" id="q4" name="q4">
+                </fieldset>
                 <button type="submit">Submit Quiz</button>
             </form>
         </main>
