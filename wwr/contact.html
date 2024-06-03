@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Contact Us - C.N. Whitewater Rafting</title>
+    <meta name="description"
+        content="The Contact Us page. This is where the information to contact the company via phone, email, etc is contained.">
+    <meta name="author" content="Gavin C.N.">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Rafting Site Logo" class="hero">
+        <nav class="navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Book a Trip</a>
+                <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <img src="images/rapid-river-raft.jpg" alt="Page Background" class="contact-hero">
+        <form>
+            <fieldset>
+                <label for="fullname">Name:</label>
+                <input type="text" id="fullname" name="fullname">
+                <label for="useremail">E-mail:</label>
+                <input type="email" id="useremail" name="useremail">
+                <div>
+                    <legend>Why are you sending us this message?</legend>
+                    <input type="radio" id="inquiry" name="purpose">
+                    <label for="purpose">General Inquiry</label>
+                    <input type="radio" id="reservation" name="purpose">
+                    <label for="purpose">Reservation Question</label>
+                    <input type="radio" id="suggestion" name="purpose">
+                    <label for="porpuse">Website Suggestion</label>
+                </div>
+                <label for="message">Enter your message:</label>
+                <textarea id="message" name="message" cols="30" rows="10"></textarea>
+                <div class="signup">
+                    <input type="checkbox" id="subscription" name="subscription">
+                    <label for="subscription">Please subscribe me to the monthly newsletter</label>
+                </div>
+            </fieldset>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="address">
+            <div class="phone">
+                <address>525 S Center St,<br>Rexburg, ID 83460</address>
+                <a href="tel:123 555-1234">(123) 555-1234</a>
+                <br>
+                <a href="mailto:info@cnwhitewaterrafting.com">Email: info@cnwhitewaterrafting.com</a>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.0082167152345!2d-111.78565702381471!3d43.8141889710949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03c3c8b0cd%3A0xfd28a97e4cccebc!2s525%20S%20Center%20St%2C%20Rexburg%2C%20ID%2083460!5e0!3m2!1sen!2sus!4v1717287537429!5m2!1sen!2sus" width="500" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <section>
+            <div class="separator">
+
+            </div>
+        </section>
+        <section>
+            <div class="employee-grid">
+                <figure>
+                    <img src="images/bob-nelson-ceo.jpg" alt="C.N. Rafting CEO">
+                    <figcaption>Bob Nelson, CEO</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/ava-ferguson-manager.jpg" alt="C.N. Facility Manager">
+                    <figcaption>Ava Ferguson, Facility Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/nick-dlamini-guide.jpg" alt="C.N. Tour Guide">
+                    <figcaption>Nick Dlamini, Tour Guide</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©️2024 🚙🏞️ C.N. Whitewater Rafting 🏁🏎️ Gavin C.N. 🤠⭐ WDD 130</p>
+        <nav class="sociallinks">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="images/facebook_logo_icon.png" alt="Facebook">
+            </a>
+            <a href="https://www.twitter.com/" target="_blank">
+                <img src="images/twitter_logo_icon.png" alt="Twitter">
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="images/youtube_logo_icon.png" alt="YouTube">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
