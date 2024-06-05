@@ -131,6 +131,56 @@ p {
     height: auto;
 }
 
+.adventure-hero img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.adventure-hero h1 {
+    font-size: 50px;
+    font-family: var(--heading-font);
+    color: whitesmoke;
+    margin: 0 auto;
+    text-shadow: 5px 3px 3px black;
+}
+
+.adventure-hero article h2 {
+    font-family: var(--heading-font);
+    color: whitesmoke;
+    margin: 0 auto;
+    text-shadow: 5px 3px 3px black;
+}
+
+.adventure-hero article {
+    position: absolute;
+    top: 220px;
+    left: 50px;
+    right: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.adventure-hero a {
+    background-color: var(--accent2-color);
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+    border: 5px solid coral;
+    border-radius: 20px;
+    padding: 1rem;
+    box-shadow: 5px 3px 3px black;
+}
+
+.adventure-hero a:hover {
+    background-color: coral;
+    color: black;
+    border: 5px solid var(--accent2-color);
+}
+
 h2,
 h3,
 h4,
@@ -279,6 +329,28 @@ button:hover {
     align-items: center;
 }
 
+.img-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 15rem;
+    padding-bottom: 10rem;
+}
+
+.img-frame img {
+    width: 250px;
+    height: auto;
+    border: 8px solid #555;
+    border-radius: 25px;
+}
+
+.img-frame figcaption {
+    color: var(--nav-hover-link-color);
+    font-size: 15px;
+    font-weight: 800;
+}
+
 figure {
     align-self: center;
 }
@@ -304,6 +376,105 @@ footer {
 
 footer p {
     color: whitesmoke;
+    margin-left: 20px;
+}
+
+.background {
+    background-color: var(--accent2-color);
+    height: 500px;
+}
+
+.brochure img {
+    width: 450px;
+    position: absolute;
+    top: 1620px;
+    left: 375px;
+    right: 375px;
+}
+
+.brochure h2, p, a {
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.brochure h2 {
+    text-shadow: 2px 1px 1px white;
+}
+
+.brochure p {
+    font-size: 17.5px;
+    font-weight: 600;
+}
+
+.brochure a {
+    background-color: var(--accent2-color);
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+    border: 5px solid coral;
+    border-radius: 20px;
+    padding: 1rem;
+    box-shadow: 5px 3px 3px black;
+}
+
+.brochure a:hover {
+    background-color: coral;
+    color: black;
+    border: 5px solid var(--accent2-color);
+}
+
+.brochure article {
+    position: absolute;
+    top: 1680px;
+    left: 700px;
+    right: 700px;
+    display: grid;
+    width: 500px;
+    height: 300px;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: var(--accent1-color);
+    box-shadow: 10px 5px 5px black;
+}
+
+.whitespace {
+    height: 300px;
+}
+
+.newsletter {
+    top: 2120px;
+    left: 600px;
+    right: 600px;
+    background-color: var(--nav-background-color);
+}
+
+.sign-up legend {
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sign-up legend, label {
+    color: var(--nav-link-color)
+}
+
+.newsletter button {
+    background-color: var(--nav-hover-link-color);
+    color: var(--nav-hover-background-color);
+    border: 2px solid black;
+}
+
+.newsletter button:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color)
+}
+
+.wireframe a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin-right: 155px;
 }
 
 .sociallinks {
